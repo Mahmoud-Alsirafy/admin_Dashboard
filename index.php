@@ -1,6 +1,5 @@
 <?php
 require "style/nav.php";
-print_r($_SESSION);
 
 ?>
 
