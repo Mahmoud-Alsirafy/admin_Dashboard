@@ -27,5 +27,11 @@ if (mysqli_num_rows($result) == 1) {
       header("location:index.php");
       $_SESSION["login"]="login";
     }
+  }else{
+    header("location:login.php");
+        $_SESSION["user"]="User Or Password Is Un Correct";
   }
+}else{
+  header("location:login.php");
+      $_SESSION["user"]="User Or Password Is Un Correct";
 }

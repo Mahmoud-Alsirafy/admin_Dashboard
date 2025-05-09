@@ -166,6 +166,9 @@ if (isset($_POST["add"])) {
         }
     } else {
         $_SESSION["errors"] = $errors;
-        header("location:new_product.php");
+        print_r($errors);
+        // header("location:new_product.php");
     }
+}else{
+    // header("location:new_product.php");
 }

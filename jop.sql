@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 07, 2025 at 11:07 PM
+-- Generation Time: May 09, 2025 at 01:40 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -73,7 +73,7 @@ CREATE TABLE `product` (
 --
 
 INSERT INTO `product` (`id`, `name`, `price`, `old_price`, `image`, `cat`, `quantity`) VALUES
-(25, 'Mahmoud Wael 5555]', 3, 2, '679a5cd2b52e1slider-bg1.jpg,679a5cd2b572dslider-bg2.jpg,679a5cd2b5ac9slider-bnr.jpg', 'salam', 60);
+(29, 'mahmoud', 50000, 90000, '681de97f524c3images.png,681de97f52889coder-amoled-black-7680x4326-13668.png', 'mvdpmmpm', 5615);
 
 -- --------------------------------------------------------
 
@@ -98,8 +98,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `firstName`, `lastName`, `email`, `password`, `confirmPassword`, `phone`, `role`, `gender`) VALUES
-(1, 'mahmoud', 'wael', 'alsirafy123@gmail.com', '$2y$10$LJW1RFnUIoKkU1oPNDza4OBfOimTA7zUq8MoKUa2qxK3up/1EDbvG', '$2y$10$gf.uOrFbaBMKGsRZQAoBEe2xXtvyxVvAmW1dTdHiDO9vVxSk.uXZi', 1068492403, 'admin', 'male'),
-(3, 'Mffgnfn', 'dfndfn', 'alsirafy12v3@gmail.com', '$2y$10$YKvpc/IxhvuT0ft0XJknH.065Gj37KMccSyJePdhwREhzEfrqYUAu', '$2y$10$ypg2gHhCQ8TVE2XOj.g8/ueAkgq63APFXQb.xV1/zzOndsMLUzH36', 1068492403, 'user', 'male');
+(1, 'admin', 'admin', 'admin@gmail.com', '$2y$10$LJW1RFnUIoKkU1oPNDza4OBfOimTA7zUq8MoKUa2qxK3up/1EDbvG', '$2y$10$gf.uOrFbaBMKGsRZQAoBEe2xXtvyxVvAmW1dTdHiDO9vVxSk.uXZi', 2147483647, 'admin', 'male'),
+(3, 'user', 'user', 'user@gmail.com', '$2y$10$YKvpc/IxhvuT0ft0XJknH.065Gj37KMccSyJePdhwREhzEfrqYUAu', '$2y$10$ypg2gHhCQ8TVE2XOj.g8/ueAkgq63APFXQb.xV1/zzOndsMLUzH36', 2147483647, 'user', 'male');
 
 --
 -- Indexes for dumped tables
@@ -152,7 +152,7 @@ ALTER TABLE `message`
 -- AUTO_INCREMENT for table `product`
 --
 ALTER TABLE `product`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
 
 --
 -- AUTO_INCREMENT for table `user`
